@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form id="registrationForm">
+        <h1>Registration Form</h1>
+        <br>
+        <table width="100%" height="100%" align="justify">
+        <tr>
+        <th><label for="name">Name:</label></th>
+        <td><input type="text" id="name" name="name" placeholder="Enter Name" required/></td>
+        </tr>
+        <tr>
+            <th><label for="rno">Roll Name:</label></th>
+            <td><input type="text" id="rno" name="rno" placeholder="Enter RollNumber" required></td>
+        </tr>
+        <tr>
+            <th><label for="dob">Date Of Birth:</label></th>
+            <td><input type="date" id="dob" name="dob" required></td>
+        </tr>
+        <tr>
+            <th><label for="age">Age:</label></th>
+            <td><input type="number" id="age" name="age" placeholder="Enter Age" required></td>
+        </tr>
+        <tr><th><label>Gender :</label></th>
+            <td><select>  
+                <option value="Gender">Gender</option>  
+                <option value="Male">Male</option>  
+                <option value="Female">Female</option>  
+                <option value="Other">Other</option>
+                </select></td>
+       </tr>
+        <tr>
+            <th><label>Semister</label></th>
+            <td><select>  
+           <option value="Semister">Semister</option>  
+           <option value="I Semister">I Semister</option>  
+           <option value="II Semister">II Semister</option>  
+           <option value="III Semister">III Semister</option>
+           <option value="IV Semister">IV Semister</option>  
+           <option value="V Semister">V Semister</option>  
+           <option value="VI Semister">VI Semister</option>  
+           <option value="VII Semister">VII Semister</option>   
+           <option value="VIII Semister">VIII Semister</option>   
+           </select></td>
+        </tr>
+        <tr>
+            <th><label for="phn">Phone Number:</label></th>
+            <td><input type="text" id="phn" name="phn" placeholder="Enter Phone Number" required></td>
+        </tr>
+        <tr>
+            <th><label for="mail">E-Mail:</label></th>
+            <td><input type="email" id="mail" name="mail" placeholder="Enter E-Mail" required></td>
+        </tr>
+        <tr>
+        <td colspan="2"><button type="submit">Register</button></td>
+        </tr>
+        </table>
+    </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

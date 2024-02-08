@@ -1,0 +1,107 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightpink;
+    background-image: linear-gradient(rgb(200, 254, 4),rgb(252, 3, 3));
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+p{
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    background: linear-gradient(to right,rgb(253, 1, 1),rgba(58, 5, 249, 0.975));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+ }
+
+/* Header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.content {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Category list */
+.category-list {
+    list-style: none;
+}
+
+.category-list li {
+    margin-bottom: 10px;
+}
+
+/* Hide visited links */
+a:visited {
+    color: #333;
+}
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: center;
+    align-items: center;
+  }
+  
+button:hover {
+    background-color: yellowgreen;
+  }
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(200, 254, 4),rgb(252, 3, 3));
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
